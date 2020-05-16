@@ -1,0 +1,135 @@
+/*首页*/
+.index{
+  padding-bottom: 1rem;
+}
+.index .talkSelect{
+
+}
+.index .talkSelect .talkItem{
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  font-size: 0.24rem;
+}
+.index .talkSelect .violet{
+  color: #8a65cf;
+}
+.index .talkSelect .green{
+  color: #32994e;
+}
+.index .talkSelect .red{
+  color: #c84557;
+}
+.index .talkSelect .talkItem img{
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-bottom: 0.05rem;
+}
+
+.index.talkList{
+
+}
+.index .talkList .talkItem{
+  width: 3.3rem;
+  float: left;
+  border: 0.01rem #e5e5e5 solid;
+  border-radius: 0.1rem;
+  padding-bottom: 0.26rem;
+  box-sizing: border-box;
+}
+.index .talkList .talkItem img{
+  width: 100%;
+  height: 2rem;
+  margin-bottom: 0.2rem;
+}
+.index .talkList .talkItem .talkTitle{
+  color: #333333;
+  font-size: 0.28rem;
+  font-weight: bold;
+  text-align: justify;
+  line-height: 0.35rem;
+  margin-bottom: 0.2rem;
+  padding: 0 0.14rem;
+}
+.index .talkList .talkItem .message{
+  font-size: 0.24rem;
+  color: #333333;
+  margin-bottom: 0.18rem;
+  padding: 0 0.14rem;
+}
+.index .talkList .talkItem .time{
+  font-size: 0.24rem;
+  color: #333333;
+  padding: 0 0.14rem;
+}
+.index .talkList .marginRight20{
+  margin-right: 0.2rem;
+}
+.index .informationList{
+
+}
+.index .informationList .marginBottom20{
+  margin-bottom: 0.2rem;
+}
+.index .informationList .informationItem{
+  height: 1.5rem;
+  border: 0.01rem #e5e5e5 solid;
+  border-radius: 0.1rem;
+  box-sizing: border-box;
+}
+.index .informationList .informationItem img{
+  width: 2.28rem;
+  height: 100%;
+  margin-right: 0.24rem;
+  float: left;
+  border-right: 0.01rem #e5e5e5 solid;
+  box-sizing: border-box;
+}
+.index .informationList .informationItem .informationDetail{
+  width: calc(100% - 2.52rem);
+  float: left;
+  padding-top: 0.15rem;
+}
+.index .informationList .informationItem .informationDetail .title{
+  padding-right: 0.2rem;
+  font-size: 0.22rem;
+  color: #222222;
+  font-weight: bold;
+  margin-bottom: 0.06rem;
+}
+.index .informationList .informationItem .informationDetail .content{
+  padding-right: 0.2rem;
+  font-size: 0.16rem;
+  color: #333333;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-height: 0.33rem;
+}
+
+.index .chargeSelect{
+
+}
+.index .chargeSelect .chargeItem{
+  width: 25%;
+  float: left;
+  font-size: 0.24rem;
+}
+.index .chargeSelect .violet{
+  color: #8a65cf;
+}
+.index .chargeSelect .green{
+  color: #32994e;
+}
+.index .chargeSelect .red{
+  color: #c84557;
+}
+.index .chargeSelect .chargeItem img{
+  width: 1.68rem;
+  height: 1.97rem;
+  margin-bottom: 0.05rem;
+}
