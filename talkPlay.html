@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=2,user-scalable=no"/>
+  <title>talkPlay</title>
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+  <link rel="stylesheet" href="common/css/reset.css">
+  <link rel="stylesheet" href="common/css/layout.css">
+  <link rel="stylesheet" href="common/css/page.css">
+  <script src="common/js/layout.js"></script>
+  <script>
+    $(function () {
+      $('.option').click(function () {
+        $(this).addClass('active')
+        $(this).siblings().removeClass('active')
+        $('.selectBox'+($(this).index()+1)).css('display','block').siblings().css('display','none')
+        if($(this).index() == 2){
+          $('#write').show()
+        }else{
+          $('#write').hide()
+        }
+      })
+    })
+  </script>
+</head>
+<body>
+<div class="wrapper talkPlay">
+  <div class="blackBacground">
+    <div class="qrCodeMain">
+      <img src="common/images/commonImg/qrCode.png" alt="">
+      <div class="dowmload">
+        <button>
+          下载二维码
+        </button>
+      </div>
+      <div class="copy">
+        <button>
+          复制课程链接
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="tempLateTitle1">
+    <img src="common/images/commonImg/titleIcon.png" alt="">
+    <span class="text">
+      流感Talk
+    </span>
+  </div>
+  <img src="common/images/commonImg/play.png" alt="" class="play">
+  <div class="operation">
+    <img src="common/images/commonImg/share.png" alt="" class="share">
+    <span>
+      3200
+    </span>
+    <img src="common/images/commonImg/fabulous.png" alt="" class="fabulous">
+  </div>
+  <div class="select">
+    <div class="options">
+      <span class="option active">
+        课程摘要
+      </span>
+      <span class="option">
+        大咖点评
+      </span>
+      <span class="option">
+        课程评论
+      </span>
+    </div>
+    <div class="view">
+      <div class="selectBox1">
+        <div class="message">
+          <div class="title">
+            课程名称
+          </div>
+          <div class="detail">
+            常见呼吸疾病诊疗方案
+          </div>
+        </div>
+        <div class="message">
+          <div class="title">
+            授课专家
+          </div>
+          <div class="detail">
+            授课专家
+          </div>
+        </div>
+        <div class="message">
+          <div class="title">
+            专家单位
+          </div>
+          <div class="detail">
+            北京天坛医院
+          </div>
+        </div>
+        <div class="message">
+          <div class="title">
+            录播日期
+          </div>
+          <div class="detail">
+            2020年5月15日
+          </div>
+        </div>
+        <div class="summary">
+          <div class="message">
+            <div class="title">
+              内容摘要
+            </div>
+            <div class="detail">
+              手足癣复发诊断手足癣复发诊断手足癣复发诊断手足癣复发诊断手足癣复发诊断手足癣复发诊断手足癣复发诊断手足癣复发诊断手足癣复发诊断手足癣复发诊断
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="selectBox2">
+        <div class="message">
+          <div class="title">
+            点评大咖
+          </div>
+          <div class="detail">
+            林清瑶
+          </div>
+        </div>
+        <div class="message">
+          <div class="title">
+            所在单位
+          </div>
+          <div class="detail">
+            所在单位
+          </div>
+        </div>
+        <div class="message">
+          <div class="title">
+            点评内容
+          </div>
+          <div class="detail">
+            项目根据基层医疗机构的服务特点，选取最新的常见疾病诊疗指南进行解读，旨在探讨如何科学构建临床治理体系，全面提升基层医疗服务质量；使基层医疗机构医务人员的服务意识进一步增强，加深全科医学
+          </div>
+        </div>
+      </div>
+      <div class="selectBox3">
+        <div class="commentList">
+          <div class="commentItem">
+            <img src="common/images/commonImg/commentIcon1.png" alt="" class="play">
+            <div class="right">
+              <div class="name">
+                林清瑶
+              </div>
+              <div class="time">
+                昨天 23:36
+              </div>
+              <div class="content">
+                哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈
+              </div>
+            </div>
+          </div>
+          <div class="commentItem">
+            <img src="common/images/commonImg/commentIcon2.png" alt="" class="play">
+            <div class="right">
+              <div class="name">
+                林清瑶
+              </div>
+              <div class="time">
+                昨天 23:36
+              </div>
+              <div class="content">
+                哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈
+              </div>
+            </div>
+          </div>
+          <div class="commentItem">
+            <img src="common/images/commonImg/commentIcon3.png" alt="" class="play">
+            <div class="right">
+              <div class="name">
+                林清瑶
+              </div>
+              <div class="time">
+                昨天 23:36
+              </div>
+              <div class="content">
+                哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="write">
+    <input type="text" placeholder="写评论">
+  </div>
+</div>
+</body>
+</html>

@@ -26,7 +26,7 @@
   margin-bottom: 0.05rem;
 }
 
-.index.talkList{
+.index .talkList{
 
 }
 .index .talkList .talkItem{
@@ -132,4 +132,1032 @@
   width: 1.68rem;
   height: 1.97rem;
   margin-bottom: 0.05rem;
+}
+
+
+/*项目说明*/
+.description{
+  padding: 0 0.34rem;
+}
+.description .titleContent{
+  width: 100%;
+  background: rgba(255,255,255,.6);
+  border-radius: 0.08rem;
+  padding: 0.4rem 0.3rem;
+  margin: 0 auto 0.5rem;
+  font-size: 0.24rem;
+  line-height: 0.35rem;
+  text-indent: 0.5rem;
+  box-sizing: border-box;
+  color: #333333;
+  box-shadow: 0 0.05rem 0.01rem 0.01rem #f0f0f0;
+}
+.description .smallLogo{
+  text-align: center;
+  margin-bottom: 0.4rem;
+}
+.description .smallLogo img{
+  width: 4.96rem;
+  height: 0.7rem;
+}
+.description .descriptionMain{
+  width: 100%;
+  background: rgba(255,255,255,.6);
+  border-radius: 0.06rem;
+  padding: 0.4rem 0.3rem;
+  margin: 0 auto;
+  font-size: 0.24rem;
+  box-shadow: 0 0.1rem 0.05rem 0.02rem #fafafa;
+  margin-bottom: 0.5rem;
+  box-sizing: border-box;
+}
+.description .descriptionMain .descriptionMainTitle{
+  font-size: 0.28rem  ;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.3rem;
+}
+.description .descriptionMain .descriptionMainTitle>p{
+  font-size: 0.24rem;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 0.38rem;
+  padding-top: 0.3rem;
+  text-indent: 0.5rem;
+  line-height: 0.35rem;
+}
+.description .descriptionMain .descriptionMainTitle>div{
+  font-size: 0.24rem;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 0.38rem;
+  padding-top: 0.3rem;
+  line-height: 0.35rem;
+}
+.description .descriptionMain .descriptionMainTitle div span{
+  display: inline-block;
+  width: 0.24rem;
+  color: #477fcc;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+}
+.description .descriptionMain .descriptionMainTitle div i{
+  display: inline-block;
+  width: 0.5rem;
+}
+.description .descriptionMain .descriptionMainTitle div span:before{
+  content: "·";
+  position: absolute;
+  top: 0.2rem;
+  left: 0.05rem;
+}
+.description .descriptionMain>p{
+  margin-bottom: 0.24rem;
+  line-height: 0.35rem;
+  overflow: hidden;
+}
+.description .descriptionMain>p i{
+  width:calc(100% - 1.12rem);
+  display: inline-block;
+  float: left;
+}
+.description .descriptionMain>p span{
+  color: #477fcc;
+  font-weight: bold;
+  width: 1.12rem;
+  display: inline-block;
+  float: left;
+}
+.description .descriptionMain .tips{
+  background: #eaf2fa;
+  border-radius: 0.06rem;
+  padding: 0.3rem;
+  color: #f40f0f;
+  margin-bottom: 0.4rem;
+}
+.description .descriptionMain .tips .tipsTitle{
+  font-size: 0.24rem;
+  margin-bottom: 0.2rem;
+  font-weight: bold;
+}
+.description .descriptionMain .tips p{
+  font-size: 0.2rem;
+  margin-bottom: 0.2rem;
+  line-height: 0.35rem;
+}
+.description .areaTips{
+  width: 100%;
+  margin: 0 auto 0.82rem;
+  padding: 0 0.62rem;
+  box-sizing: border-box;
+}
+.description .areaTips .areaTipsTitle{
+  color: #f40f0f;
+  font-size: 0.24rem;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+.description .areaTips .area{
+  color: #333333;
+  font-size: 0.2rem;
+  line-height: 0.35rem;
+}
+.description  .agreeButton{
+  width: 100%;
+  height: 2.72rem;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  box-sizing: border-box;
+  padding-top: 0.52rem;
+  background-image: url("../images/commonImg/background.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.description  .agreeButton button{
+  vertical-align: top;
+  width: 4.6rem;
+  height: 0.8rem;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-size: 0.3rem;
+  border-radius:0.4rem;
+  cursor: pointer;
+  background: linear-gradient(to right, #106bbb , #92c9f6);
+}
+
+
+
+/*login*/
+.login{
+  padding: 0 0.34rem 2.27rem;
+}
+.login .loginMain{
+  width:100%;
+  height: 4.7rem;
+  padding: 0.4rem 0.3rem 0;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0.03rem 0.01rem 0.02rem #f0f0f0;
+  margin-bottom: 0.6rem;
+}
+.login .loginMain .loginTitle{
+  font-size: 0.3rem;
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+}
+.login .loginMain .userNameTitle,.login .loginMain .passwordTitle{
+  color: #3e4a59;
+  font-size: 0.24rem;
+  margin-bottom: 0.34rem;
+}
+.login .loginMain .userNameInput{
+  margin-bottom: 0.5rem;
+  height:0.62rem;
+}
+.login .loginMain .passwordInput{
+  position: relative;
+}
+.login .loginMain .passwordInput .forget{
+  position: absolute;
+  font-size: 0.24rem;
+  color: #999999;
+  border-bottom: 1px #999999 solid;
+  top: 0.08rem;
+  right: 0;
+  cursor: pointer;
+}
+.login .loginMain .userNameInput input,.login .loginMain .passwordInput input{
+  border: none;
+  outline: none;
+  padding-bottom: 0.2rem;
+  width: 100%;
+  border-bottom: 0.01rem #e5e5e5 solid;
+  color: #24272b;
+  font-size: 0.34rem;
+  vertical-align: top;
+}
+.login .loginButton{
+  width: 100%;
+  height: 0.8rem;
+  text-align: center;
+  margin-bottom: 0.4rem;
+}
+.login .loginButton button{
+  width: 4.6rem;
+  height: 100%;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 0.3rem;
+  background: linear-gradient(to right, #106bbb , #92c9f6);
+  border-radius: 0.4rem;
+  outline: none;
+  vertical-align: top;
+}
+.login .register{
+  text-align: center;
+  font-size: 0.24rem;
+  color: #3081d2;
+  cursor: pointer;
+}
+.login .loginFooter{
+  box-sizing: border-box;
+  width: 100%;
+  height: 2.72rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  background-image: url("../images/commonImg/background.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 0.85rem;
+}
+.login .loginFooter .item{
+  height: 0.28rem;
+  margin-bottom: 0.1rem;
+  text-align: center;
+}
+.login .loginFooter .item span{
+  font-size: 0.2rem;
+  color: #333333;
+  vertical-align: top;
+  font-weight: bold;
+}
+.login .loginFooter .item img{
+  vertical-align: top;
+}
+.login .loginFooter .item:nth-child(1) img{
+  width: 1.24rem;
+  height: 0.28rem;
+}
+.login .loginFooter .item:nth-child(2) img{
+  width: 1.15rem;
+  height: 0.26rem;
+}
+.login .loginFooter .item:nth-child(3) img{
+  width: 0.8rem;
+  height: 0.27rem;
+}
+.login .loginFooter .item i{
+  font-size: 0.2rem;
+  color: #333333;
+  vertical-align: top;
+  margin-left: -0.2rem;
+}
+
+
+/*完善信息*/
+.improve{
+  padding: 0 0.36rem;
+}
+.improve .formList{
+  padding: 0 0.4rem;
+  border: 0.01rem #e5e5e5 solid;
+  border-radius: 0.08rem;
+}
+.improve .formList .formItem{
+  position: relative;
+  height: 1rem;
+  box-sizing: border-box;
+  border-bottom: 0.01rem #f0f0f0 solid;
+}
+.improve .formList .formItem:nth-last-child(1){
+  border-bottom: none;
+}
+.improve .formList .formItem img{
+  width: 0.09rem;
+  height: 0.17rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+.improve .formList .formItem .title{
+  color: #808080;
+  font-size: 0.28rem;
+  vertical-align: top;
+  padding-top: 0.36rem;
+  display: inline-block;
+  text-align: justify;
+  width: 0.8rem;
+  float: left;
+  margin-right: 0.6rem;
+}
+.improve .formList .formItem .title:after {
+   display: inline-block;
+   width: 100%;
+   content: '';
+   height: 0;
+ }
+.improve .formList .formItem input{
+  width: calc(100% - 1.4rem);
+  font-size: 0.28rem;
+  vertical-align: top;
+  color: #333333;
+  margin-top: 0.32rem;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  float: left;
+}
+.improve .submit{
+  width: 4.6rem;
+  height: 0.8rem;
+  color: #ffffff;
+  font-size: 0.3rem;
+  background: #477fcc;
+  position: fixed;
+  bottom: 1rem;
+  right: 0;
+  left: 0;
+  margin: auto;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+}
+
+
+/*talentTalk*/
+.talentTalk{
+  padding-bottom: 1rem;
+}
+.talentTalk .talkList{
+  background: #fafafa;
+}
+.talentTalk .talkList .talkItem{
+  width: 3.3rem;
+  float: left;
+  border: 0.01rem #e5e5e5 solid;
+  border-radius: 0.1rem;
+  padding-bottom: 0.26rem;
+  box-sizing: border-box;
+}
+.talentTalk .talkList .talkItem img{
+  width: 100%;
+  height: 2rem;
+  margin-bottom: 0.2rem;
+}
+.talentTalk .talkList .talkItem .talkTitle{
+  color: #333333;
+  font-size: 0.28rem;
+  font-weight: bold;
+  text-align: justify;
+  line-height: 0.35rem;
+  margin-bottom: 0.2rem;
+  padding: 0 0.14rem;
+}
+.talentTalk .talkList .talkItem .message{
+  font-size: 0.24rem;
+  color: #333333;
+  margin-bottom: 0.18rem;
+  padding: 0 0.14rem;
+}
+.talentTalk .talkList .talkItem .time{
+  font-size: 0.24rem;
+  color: #333333;
+  padding: 0 0.14rem;
+}
+.talentTalk .talkList .marginRight20{
+  margin-right: 0.2rem;
+}
+
+
+/*talentTalkPlay*/
+.talentTalkPlay{
+  padding-bottom: 1rem;
+}
+.talentTalkPlay .talkList{
+  background: #fafafa;
+}
+.talentTalkPlay .talkList .talkItem{
+  width: 3.3rem;
+  float: left;
+  border: 0.01rem #e5e5e5 solid;
+  border-radius: 0.1rem;
+  padding-bottom: 0.26rem;
+  box-sizing: border-box;
+  margin-bottom: 0.2rem;
+}
+.talentTalkPlay .talkList .talkItem img{
+  width: 100%;
+  height: 2rem;
+  margin-bottom: 0.2rem;
+}
+.talentTalkPlay .talkList .talkItem .talkTitle{
+  color: #333333;
+  font-size: 0.28rem;
+  font-weight: bold;
+  text-align: justify;
+  line-height: 0.35rem;
+  margin-bottom: 0.2rem;
+  padding: 0 0.14rem;
+}
+.talentTalkPlay .talkList .talkItem .message{
+  font-size: 0.24rem;
+  color: #333333;
+  margin-bottom: 0.18rem;
+  padding: 0 0.14rem;
+}
+.talentTalkPlay .talkList .talkItem .time{
+  font-size: 0.24rem;
+  color: #333333;
+  padding: 0 0.14rem;
+}
+.talentTalkPlay .talkList .talkItem:nth-child(odd){
+  margin-right: 0.2rem;
+}
+.talentTalkPlay .talkList .talkItem:nth-last-child(1),.talentTalkPlay .talkList .talkItem:nth-last-child(2){
+  margin-bottom: 0;
+}
+
+/*talk播放*/
+.talkPlay{
+  padding: 0 0.36rem;
+  background: #fafafa;
+}
+.talkPlay .play{
+  width: 100%;
+  height:3.8rem;
+  margin-bottom: 0.2rem;
+}
+.talkPlay .operation{
+  height: 0.5rem;
+}
+.talkPlay .operation .fabulous{
+  width: 0.28rem;
+  height: 0.27rem;
+  vertical-align: top;
+  float: right;
+}
+.talkPlay .operation span{
+  font-size: 0.24rem;
+  color: #666666;
+  vertical-align: top;
+  display: inline-block;
+  padding-top: 0.04rem;
+  float: right;
+  margin: 0 0.3rem 0 0.1rem;
+}
+.talkPlay .operation .share{
+  width: 0.23rem;
+  height: 0.23rem;
+  vertical-align: top;
+  padding-top: 0.04rem;
+  float: right;
+  margin-right: 0.34rem;
+}
+.talkPlay .select{
+  padding: 0.3rem;
+  border-radius: 0.08rem;
+  border: 0.01rem #e5e5e5 solid;
+}
+.talkPlay .select .options{
+  height: 0.5rem;
+  border-bottom: 0.01rem #f0f0f0 solid;
+  margin-bottom: 0.2rem;
+}
+.talkPlay .select .option{
+  display: inline-block;
+  width: 33.33%;
+  float: left;
+  font-size: 0.28rem;
+  text-align: center;
+  height: 100%;
+  box-sizing: border-box;
+  color: #999999;
+}
+.talkPlay .select .options .active{
+  color: #477fcc;
+  border-bottom: 0.02rem #477fcc solid;
+}
+.talkPlay .select .view .selectBox1{
+  display: block;
+}
+.talkPlay .select .view .selectBox2{
+  display: none;
+}
+.talkPlay .select .view .selectBox3{
+  display: none;
+}
+.talkPlay .message{
+  overflow: hidden;
+  margin-bottom: 0.15rem;
+}
+.talkPlay .select .message:nth-last-child(1){
+  margin-bottom: 0;
+}
+.talkPlay .message .title{
+  width: 1.26rem;
+  font-size: 0.24rem;
+  color: #333333;
+  float: left;
+  line-height: 0.35rem;
+  font-weight: bold;
+}
+.talkPlay .message .detail{
+  width: calc(100% - 1.26rem);
+  font-size: 0.24rem;
+  color: #666666;
+  float: left;
+  line-height: 0.35rem;
+}
+.talkPlay .summary{
+  margin-top: 0.3rem;
+  padding-top: 0.2rem;
+  border-top: 0.01rem #f0f0f0 solid;
+}
+.talkPlay .selectBox3 .commentList{
+
+}
+.talkPlay .selectBox3 .commentList .commentItem{
+  overflow: hidden;
+  padding-top: 0.2rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 0.01rem #f0f0f0 solid;
+}
+.talkPlay .selectBox3 .commentList .commentItem:nth-last-child(1){
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.talkPlay .selectBox3 .commentList .commentItem img{
+  width: 0.54rem;
+  height: 0.54rem;
+  margin-right: 0.2rem;
+  float: left;
+}
+.talkPlay .selectBox3 .commentList .commentItem .right{
+  width: calc(100% - 0.74rem);
+  float: left;
+}
+.talkPlay .selectBox3 .commentList .commentItem .right .name{
+  color: #666666;
+  font-size: 0.22rem;
+  margin-bottom: 0.08rem;
+}
+.talkPlay .selectBox3 .commentList .commentItem .right .time{
+  color: #999999;
+  font-size: 0.16rem;
+  margin-bottom: 0.18rem;
+}
+.talkPlay .selectBox3 .commentList .commentItem .right .content{
+  color: #333333;
+  font-size: 0.24rem;
+  font-weight: bold;
+  line-height: 0.35rem;
+}
+.talkPlay #write{
+  width: 100%;
+  height: 1.1rem;
+  border-top: 0.01rem #efeff3 solid;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+  background: #ffffff;
+  padding: 0.12rem 0.35rem 0;
+  box-sizing: border-box;
+  display: none;
+}
+.talkPlay #write input{
+  width: 100%;
+  height: 0.7rem;
+  border: none;
+  outline: none;
+  vertical-align: top;
+  border-radius: 0.35rem;
+  background: #f2f2f2;
+  background-image: url("../../common/images/commonImg/pencil.png");
+  background-size: 0.32rem;
+  background-repeat: no-repeat;
+  background-position: 0.3rem 0.2rem;
+  box-sizing: border-box;
+  padding-left: 0.76rem;
+  font-size: 0.26rem;
+}
+.talkPlay .qrCodeMain{
+  width: 4.6rem;
+  height: 6.88rem;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-image: url("../../common/images/commonImg/qrCodeBackGround.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.talkPlay .qrCodeMain img{
+  width: 3.2rem;
+  height: 3.2rem;
+  padding-top: 0.64rem;
+  margin-bottom: 0.44rem;
+}
+.talkPlay .qrCodeMain .dowmload{
+  height: 0.55rem;
+  border-top: 0.01rem #91b2e0 dashed;
+  width: 3.8rem;
+  margin: 0 auto 0.3rem;
+  padding-top: 0.4rem;
+}
+.talkPlay .qrCodeMain .dowmload button{
+  vertical-align: top;
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 3.2rem;
+  font-size: 0.24rem;
+  color: #ffffff;
+  background: #477fcc;
+  border-radius: 0.225rem;
+  box-shadow: 0 0.01rem 0.02rem 0.03rem #d6e1f0;
+}
+.talkPlay .qrCodeMain .copy{
+  height: 0.55rem;
+}
+.talkPlay .qrCodeMain .copy button{
+  vertical-align: top;
+  outline: none;
+  height: 100%;
+  width: 3.2rem;
+  font-size: 0.24rem;
+  color: #477fcc;
+  background: #ffffff;
+  border-radius: 0.225rem;
+  border: 0.01rem #477fcc solid;
+}
+
+
+/*大咖谈播放*/
+.shotTalkPlay{
+  padding: 0 0.36rem;
+}
+.shotTalkPlay .play{
+  width: 100%;
+  height:3.8rem;
+  margin-bottom: 0.2rem;
+}
+.shotTalkPlay .message{
+  padding: 0.3rem;
+  border:0.01rem #e5e5e5 solid;
+  border-radius: 0.08rem;
+}
+.shotTalkPlay .message .item{
+  overflow: hidden;
+  font-size: 0.24rem;
+  margin-bottom: 0.25rem;
+}
+.shotTalkPlay .message .item:nth-last-child(1){
+  margin-bottom: 0;
+}
+.shotTalkPlay .message .item .title{
+  width: 1.24rem;
+  float: left;
+  color: #333333;
+}
+.shotTalkPlay .message .item .content{
+  width: calc(100% - 1.24rem);
+  float: left;
+  color: #666666;
+}
+
+
+/*云资讯*/
+.information{
+  padding-bottom: 1rem;
+}
+.information .informationList{
+
+}
+.information .informationList .item{
+  border: 0.01rem #e5e5e5 solid;
+  border-radius: 0.08rem;
+  margin-bottom: 0.2rem;
+}
+.information .informationList .item .itemTop{
+  overflow: hidden;
+  padding: 0.25rem 0.2rem;
+  border-bottom: 0.01rem #e5e5e5 solid;
+  margin-bottom: 0.22rem;
+}
+.information .informationList .item .itemTop .top{
+  float: left;
+  font-size: 0.2rem;
+  line-height: 0.27rem;
+  text-align: center;
+  background: #df3427;
+  color: #ffffff;
+  padding: 0.04rem 0.06rem;
+  margin-right: 0.1rem;
+}
+.information .informationList .item .itemTop .title{
+  width: 2.7rem;
+  font-size: 0.26rem;
+  color: #222222;
+  float: left;
+  padding-top: 0.05rem;
+}
+.information .informationList .item .itemTop .time{
+  color: #999999;
+  font-size: 0.2rem;
+  float: right;
+  padding-top: 0.08rem;
+}
+.information .informationList .itemBottom{
+  overflow: hidden;
+  padding: 0 0.2rem 0.2rem;
+}
+.information .informationList .itemBottom img{
+  width: 2.3rem;
+  height: 1.5rem;
+  float: left;
+  border-radius: 0.08rem;
+  margin-right: 0.2rem;
+}
+.information .informationList .itemBottom .detail{
+  width: calc(100% - 2.5rem);
+  height: 1.5rem;
+  float: left;
+  font-size: 0.2rem;
+  color: #666666;
+  line-height: 0.36rem;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+/*资讯详情*/
+.information-Detail{
+  padding: 0 0.36rem;
+}
+.information-Detail .informationTextArea{
+  padding: 0.3rem 0.4rem;
+}
+.information-Detail .informationTextArea .informationTitle{
+  text-align: center;
+  color: #333333;
+  font-size: 0.32rem;
+  margin-bottom: 0.26rem;
+  font-weight: bold;
+}
+.information-Detail .informationTextArea .authorMessage{
+  text-align: center;
+  color: #999999;
+  font-size: 0.22rem;
+  padding-bottom: 0.26rem;
+  border-bottom:0.01rem #f0f0f0 solid;
+  margin-bottom: 0.28rem;
+}
+.information-Detail .informationTextArea .authorMessage span{
+  margin-right: 0.3rem;
+}
+.information-Detail .informationTextArea .informationImg{
+  width: 4rem;
+  height: 4.4rem;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+.information-Detail .informationTextArea .imgAuthor{
+  text-align: center;
+  color: #3081d2;
+  font-size: 0.2rem;
+  margin-bottom: 0.3rem;
+}
+.information-Detail .informationTextArea .informationContent{
+  color: #333333;
+}
+.information-Detail .informationTextArea .informationContent p{
+  font-size: 0.26rem;
+  line-height: 0.45rem;
+  margin-bottom: 0.3rem;
+  text-indent: 0.5rem;
+  text-align: justify;
+}
+
+
+/*充电100%*/
+.charge100{
+  padding-bottom: 1rem;
+}
+.charge100 .charge100Box{
+  padding: 0 0.36rem;
+}
+.charge100 .charge100Box .explain{
+  color: #222222;
+  position: relative;
+  padding-left: 0.2rem;
+  margin-bottom: 0.1rem;
+  line-height: 0.45rem;
+  font-size: 0.26rem;
+}
+.charge100 .charge100Box>p:nth-last-of-type(1){
+  margin-bottom: 0;
+}
+.charge100 .charge100Box .explain:before{
+  content: "·";
+  position: absolute;
+  color: #3081d2;
+  left: -5px;
+  font-size: 40px;
+  top: -2px;
+}
+.charge100 .charge100Box .explainSelect{
+  padding-top: 0.42rem;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+.charge100 .charge100Box .explainSelect .explainOption{
+  width: 33.33%;
+  height: 2.1rem;
+  float: left;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.charge100 .charge100Box .explainSelect .explainOption img {
+  width: 1.8rem;
+  height: 100%;
+}
+
+
+/*课后考核*/
+.afterExamination{
+  background: #fafafa;
+}
+.afterExamination .topicList{
+  margin: 0 0.36rem 0.4rem;
+  border: 0.01rem #e5e5e5 solid;
+  border-radius: 0.08rem;
+}
+.afterExamination .topicList .examinationItem{
+  border-bottom: 0.01rem #dae5f5 solid;
+  padding: 0 0.36rem;
+}
+.afterExamination .topicList>div:nth-last-of-type(1){
+  margin-bottom: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.afterExamination .topicList .examinationItem .itemTitle{
+  color: #3081d2;
+  line-height: 1rem;
+  font-size: 0.28rem;
+  border-bottom: 0.01rem #dae5f5 solid;
+}
+.afterExamination .topicList .examinationItem .optionsList p{
+  color: #333333;
+  font-size: 0.26rem;
+  line-height: 0.8rem;
+  border-bottom: 0.01rem #dae5f5 solid;
+}
+.afterExamination .topicList .examinationItem .optionsList p:nth-last-of-type(1){
+  border-bottom: 0;
+}
+.afterExamination .topicList .examinationItem .optionsList p input{
+  transform: translateY(1px);
+  cursor: pointer;
+}
+.afterExamination .submit{
+  vertical-align: top;
+  width: 4.6rem;
+  height: 0.8rem;
+  outline: none;
+  border: none;
+  border-radius: 0.4rem;
+  display: block;
+  margin: 0 auto;
+  color: #ffffff;
+  background: #477fcc;
+  font-size: 0.3rem;
+  box-shadow: 0 0.02rem 3px 3px #d3dfed;
+  margin-bottom: 0.88rem;
+}
+.afterExamination .disable{
+  background: #b2b2b2;
+  box-shadow: none;
+}
+
+
+/*课程播放*/
+.lessonPlay{
+  padding: 0 0.36rem;
+}
+.lessonPlay .play{
+  width: 100%;
+  height:3.8rem;
+  margin-bottom: 0.2rem;
+}
+.lessonPlay .message{
+  padding: 0.3rem;
+  border:0.01rem #e5e5e5 solid;
+  border-radius: 0.08rem;
+}
+.lessonPlay .message .item{
+  overflow: hidden;
+  font-size: 0.24rem;
+  margin-bottom: 0.25rem;
+}
+.lessonPlay .message .item:nth-last-child(1){
+  margin-bottom: 0;
+}
+.lessonPlay .message .item .title{
+  width: 1.24rem;
+  float: left;
+  color: #333333;
+}
+.lessonPlay .message .item .content{
+  width: calc(100% - 1.24rem);
+  float: left;
+  color: #666666;
+}
+.lessonPlay .tips{
+  color: #222222;
+  font-size: 0.24rem;
+  font-weight: 600;
+}
+.lessonPlay .tips i{
+  width: 0.1rem;
+  height: 0.1rem;
+  background: #477fcc;
+  display: inline-block;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin: 0 0.12rem;
+}
+
+
+/*获奖名单*/
+.prize{
+  background: #fafafa;
+}
+.prize .prizeBox{
+  margin: 0 0.36rem 0.3rem;
+  padding: 0.3rem;
+  border: 0.01rem #e5e5e5 solid;
+  border-radius: 0.08rem;
+  background: #fff;
+}
+.prize .prizeBox .explain{
+  color: #222222;
+  position: relative;
+  padding-left: 0.2rem;
+  margin-bottom: 0.1rem;
+  line-height: 0.45rem;
+  font-size: 0.26rem;
+}
+.prize .prizeBox>p:nth-last-of-type(1){
+  margin-bottom: 0;
+}
+.prize .prizeBox .explain:before{
+  content: "·";
+  position: absolute;
+  color: #3081d2;
+  left: -5px;
+  font-size: 40px;
+  top: -2px;
+}
+.prize .gun{
+  height: 0.1rem;
+  background: #e5e5e5;
+}
+.prize .prizeBox .winningList{
+
+}
+.prize .prizeBox .winningList .winningTitle{
+  color: #3081d2;
+  margin-bottom: 0.3rem;
+  font-size: 0.24rem;
+}
+.prize .prizeBox .winningList .winningDetail{
+
+}
+.prize .prizeBox .winningList .winningDetail p{
+  height: 0.22rem;
+  margin-bottom: 0.24rem;
+  text-align: justify;
+}
+.prize .prizeBox .winningList .winningDetail p:nth-last-of-type(1){
+  margin-bottom: 0;
+}
+.prize .prizeBox .winningList .winningDetail p span{
+  display: inline-block;
+  width: 33.33%;
+  font-size: 0.22rem;
+  color: #222222;
+  float: left;
 }
