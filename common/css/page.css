@@ -766,7 +766,20 @@
   background-position: 0.3rem 0.2rem;
   box-sizing: border-box;
   padding-left: 0.76rem;
+  padding-right: 1.2rem;
   font-size: 0.26rem;
+}
+.talkPlay #write .submit{
+  position: absolute;
+  width: 1rem;
+  height: 0.5rem;
+  top: 0.22rem;
+  right: 0.45rem;
+  outline: none;
+  border: none;
+  color: #fff;
+  background: #064586;
+  border-radius: 0.25rem;
 }
 .talkPlay .qrCodeMain{
   width: 4.6rem;
